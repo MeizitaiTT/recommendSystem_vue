@@ -99,7 +99,7 @@ export default {
           {type: 'bar'}
         ]
       }
-      // 使用刚指定的配置项和数据显示图表。
+      // 使用刚指定的配置项和数据显示图表
       recallGraphic.setOption(option1)
       nDCG.setOption(option2)
     }
