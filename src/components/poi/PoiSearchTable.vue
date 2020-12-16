@@ -37,14 +37,14 @@ const columns = [
   },
   {
     title: '地址',
-    dataIndex: 'address',
-    key: 'address',
-    width: '20%'
+    dataIndex: 'fullAddress',
+    key: 'fullAddress'
   },
   {
     title: '类型',
-    dataIndex: 'category',
-    key: 'category'
+    dataIndex: 'categories',
+    key: 'categories',
+    width: '30%'
   },
   {
     title: '城市',

@@ -11,7 +11,7 @@
         </a-breadcrumb>
 
         <a-card title="兴趣点推荐" :style="{ background: '#fff', padding: '24px', margin: 0, minHeight: '280px' }">
-          <poi-recommend-select :algorithm="algorithm"></poi-recommend-select>
+          <poi-recommend-select :visitDate="visitDate" ></poi-recommend-select>
           <br>
           <form-tags :movieTitles="movieTitles"></form-tags>
           <br>
@@ -31,9 +31,7 @@
             :algorithm="algorithm"
           ></poi-recommend-table>
         </a-card>
-
         <br>
-
       </a-layout>
     </a-layout>
   </a-layout>
@@ -61,6 +59,7 @@ export default {
       selectedKeys: [2],
       userId: 'user_id',
       algorithm: 'Item2Vec',
+      visitDate: '',
       business: [],
       count: 0,
       start: 0,
@@ -71,7 +70,6 @@ export default {
   },
   methods: {
     submit () {
-      console.log('submit', this.algorithm, this.movieTitles)
       const qs = require('qs')
       this.loading = true
       this.$axios.get('/business/recommend', {
