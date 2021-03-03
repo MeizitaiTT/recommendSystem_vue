@@ -2,20 +2,17 @@
   <div>
     请选择推荐算法：
     <a-radio-group button-style="solid" v-model="value" @change="onChange">
-      <a-radio-button value="ItemCF">
-        ItemCF
-      </a-radio-button>
-      <a-radio-button value="JIM">
-        JIM
-      </a-radio-button>
       <a-radio-button value="STSTM">
         STSTM
       </a-radio-button>
-      <a-radio-button value="USTTM">
-        USTTM
+      <a-radio-button value="TJM">
+        JIM
       </a-radio-button>
-      <a-radio-button value="SPORE">
-        SPORE
+      <a-radio-button value="SAETM">
+        STSTM
+      </a-radio-button>
+      <a-radio-button value="system">
+        系统线性融合
       </a-radio-button>
     </a-radio-group>
     <br />

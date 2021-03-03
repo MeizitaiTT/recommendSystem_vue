@@ -53,13 +53,13 @@ export default {
         legend: {},
         tooltip: {},
         dataset: {
-          dimensions: ['topic', 'JIM', 'STT', 'SPORE', 'USTTM', 'STSTM'],
+          dimensions: ['topic', 'TJM', 'SAETM', 'SPORE', 'USAETMM', 'STSTM'],
           source: [
-            {topic: '20', 'JIM': 0.05, 'STT': 0.04, 'SPORE': 0.055, 'USTTM': 0.05, 'STSTM': 0.068},
-            {topic: '40', 'JIM': 0.06, 'STT': 0.045, 'SPORE': 0.086, 'USTTM': 0.080, 'STSTM': 0.11},
-            {topic: '60', 'JIM': 0.084, 'STT': 0.055, 'SPORE': 0.108, 'USTTM': 0.089, 'STSTM': 0.151},
-            {topic: '80', 'JIM': 0.091, 'STT': 0.06, 'SPORE': 0.115, 'USTTM': 0.118, 'STSTM': 0.16},
-            {topic: '120', 'JIM': 0.071, 'STT': 0.07, 'SPORE': 0.128, 'USTTM': 0.088, 'STSTM': 0.141}
+            {topic: '20', 'TJM': 0.05, 'SAETM': 0.04, 'SPORE': 0.055, 'USAETMM': 0.05, 'STSTM': 0.068},
+            {topic: '40', 'TJM': 0.06, 'SAETM': 0.045, 'SPORE': 0.086, 'USAETMM': 0.080, 'STSTM': 0.11},
+            {topic: '60', 'TJM': 0.084, 'SAETM': 0.055, 'SPORE': 0.108, 'USAETMM': 0.089, 'STSTM': 0.151},
+            {topic: '80', 'TJM': 0.091, 'SAETM': 0.06, 'SPORE': 0.115, 'USAETMM': 0.118, 'STSTM': 0.16},
+            {topic: '120', 'TJM': 0.071, 'SAETM': 0.07, 'SPORE': 0.128, 'USAETMM': 0.088, 'STSTM': 0.141}
           ]
         },
         xAxis: {type: 'category'},
@@ -78,13 +78,13 @@ export default {
         legend: {},
         tooltip: {},
         dataset: {
-          dimensions: ['topic', 'JIM', 'STT', 'SPORE', 'USTTM', 'STSTM'],
+          dimensions: ['topic', 'TJM', 'SAETM', 'SPORE', 'USAETMM', 'STSTM'],
           source: [
-            {topic: '20', 'JIM': 0.05, 'STT': 0.04, 'SPORE': 0.055, 'USTTM': 0.05, 'STSTM': 0.068},
-            {topic: '40', 'JIM': 0.06, 'STT': 0.045, 'SPORE': 0.086, 'USTTM': 0.080, 'STSTM': 0.11},
-            {topic: '60', 'JIM': 0.084, 'STT': 0.055, 'SPORE': 0.108, 'USTTM': 0.089, 'STSTM': 0.151},
-            {topic: '80', 'JIM': 0.091, 'STT': 0.06, 'SPORE': 0.115, 'USTTM': 0.118, 'STSTM': 0.16},
-            {topic: '120', 'JIM': 0.071, 'STT': 0.07, 'SPORE': 0.128, 'USTTM': 0.088, 'STSTM': 0.141}
+            {topic: '20', 'TJM': 0.05, 'SAETM': 0.04, 'SPORE': 0.055, 'USAETMM': 0.05, 'STSTM': 0.068},
+            {topic: '40', 'TJM': 0.06, 'SAETM': 0.045, 'SPORE': 0.086, 'USAETMM': 0.080, 'STSTM': 0.11},
+            {topic: '60', 'TJM': 0.084, 'SAETM': 0.055, 'SPORE': 0.108, 'USAETMM': 0.089, 'STSTM': 0.151},
+            {topic: '80', 'TJM': 0.091, 'SAETM': 0.06, 'SPORE': 0.115, 'USAETMM': 0.118, 'STSTM': 0.16},
+            {topic: '120', 'TJM': 0.071, 'SAETM': 0.07, 'SPORE': 0.128, 'USAETMM': 0.088, 'STSTM': 0.141}
           ]
         },
         xAxis: {type: 'category'},
